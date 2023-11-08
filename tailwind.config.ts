@@ -15,6 +15,9 @@ const config: Config = {
       },
       height: {
         '22': '4.7rem',
+      },
+      margin: {
+        '22': '4.7rem',
       }
     },
   },
