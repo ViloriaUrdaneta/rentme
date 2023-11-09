@@ -5,12 +5,12 @@ import carImage from '../../public/imagen-auto.jpg'
 function Card() {
     return (
         <div>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg">
+            <div className="max-w-sm rounded-md overflow-hidden hover:shadow-lg shadow-md">
                 <Image
                     src={carImage} 
                     alt='auto' 
-                    width={150} 
-                    height={150}          
+                    width={300} 
+                    height={300}          
                 />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">Título de la Tarjeta</div>
